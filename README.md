@@ -1,76 +1,57 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+# Portfolio - Hajar Braidi
 
-<br/>
+Code source de mon portfolio personnel, en ligne sur [hajar-braidi.vercel.app](https://hajar-braidi.vercel.app/).
 
-<center>
+Élève ingénieure en Data and Software Sciences à l'ENSIAS (Rabat), je présente sur ce site mon parcours, mes compétences, mes projets et mon CV.
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+## Contenu du site
 
-</center>
+- **Accueil** : présentation rapide
+- **À propos** : parcours, compétences techniques et outils utilisés, activité GitHub
+- **Projets** : fiches détaillées avec description, technologies, captures d'écran, lien GitHub, rapports et présentations en PDF
+- **CV** : affichage et téléchargement du CV en PDF
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+Projets présentés : SNRT Intelligent Archive, détection de la rétinopathie diabétique, observabilité DevOps pour les systèmes de santé, News RAG Maroc, Maalem, UrbAlert et RitaFer Interactive.
 
-## TL;DR
+## Technologies
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+- React 17
+- React Router
+- React Bootstrap et Bootstrap 5
+- react-pdf (affichage du CV)
+- Déploiement sur Vercel
 
-## Built With
+## Ajouter ou modifier un projet
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+- Les informations des projets se trouvent dans `src/components/Projects/projectsData.js`.
+- Les captures d'écran vont dans `src/Assets/Projects/<dossier-du-projet>/` (le fichier `1.jpg` sert d'image de couverture).
+- Les rapports et présentations en PDF vont dans `public/docs/`.
 
-This project was built using these technologies.
+## Lancer le projet en local
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+Prérequis : Node.js et npm.
 
-## Features
+```bash
+git clone https://github.com/HajarBraidi/portfolio.git
+cd portfolio
+npm install
+npm start
+```
 
-**📖 Multi-Page Layout**
+Le site est ensuite disponible sur `http://localhost:3000`.
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+Pour générer la version de production :
 
-**📱 Fully Responsive**
+```bash
+npm run build
+```
 
-## Getting Started
+## Contact
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+- Email : hajarbraidi89@gmail.com
+- LinkedIn : [linkedin.com/in/hajar-braidi](https://www.linkedin.com/in/hajar-braidi/)
+- GitHub : [github.com/HajarBraidi](https://github.com/HajarBraidi)
 
-## 🛠 Installation and Setup Instructions
+## Crédits
 
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
-## Usage Instructions
-
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
-
-### Show your support
-
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+Ce site est construit à partir du modèle open source de [Soumyajit Behera](https://github.com/soumyajit4419/Portfolio), adapté et personnalisé avec mon propre contenu.
